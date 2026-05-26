@@ -1,0 +1,15 @@
+{
+	"name": "vaprojectadf",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "fb9d8672-8b57-4e14-988b-0f01c25a620a",
+		"tenantId": "fd3f4ceb-521c-4f73-9c4d-cd0c7bd84074"
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"name": "pipeline1",
+	"properties": {
+		"activities": [
+			{
+				"name": "Notebook1",
+				"type": "DatabricksNotebook",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "https://adb-7405612397235132.12.azuredatabricks.net/editor/notebooks/3797852787837565?o=7405612397235132"
+				},
+				"linkedServiceName": {
+					"referenceName": "AzureDatabricks11",
+					"type": "LinkedServiceReference"
+				}
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2026-05-26T11:25:09Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}
